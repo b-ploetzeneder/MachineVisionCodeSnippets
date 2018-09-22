@@ -2,4 +2,4 @@ title: CIMAQ
 author: Birgit Ploetzeneder
 description: > # this means to ignore newlines until "baseurl:"
   Additional library functions for the NI Vision Development Module / IMAQ
-theme: jekyll-theme-minimal
+remote-theme: "mmistakes/minimal-mistakes"
