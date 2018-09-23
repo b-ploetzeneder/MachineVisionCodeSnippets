@@ -7,7 +7,7 @@ redirect_from:
   - /theme-setup/
 toc: false 
 ---
- ![image-left](assets/images/subvis/random_code.png){: .align-left}
+ ![image-left](/MachineVisionCodeSnippets/assets/images/subvis/random_code.png){: Random unique string}
 
 This really simple code snippet creates a unique random string. I often use it to create names for temporary image references. 
 To help with debugging, the name of the calling vi and a timestamp is integrated.
