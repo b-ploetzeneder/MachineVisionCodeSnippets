@@ -7,17 +7,14 @@ redirect_from:
   - /theme-setup/
 toc: false 
 ---
+ ![image-left](assets/images/subvis/random_code.png){: .align-left}
 
 This really simple code snippet creates a unique random string. I often use it to create names for temporary image references. 
 To help with debugging, the name of the calling vi and a timestamp is integrated.
 
 
 Function: [CIMAQ_UniqueString.vi](https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/user.lib/CIMAQ_UniqueString.vi)
- 
-<figure>
-  <img src="{{ '/assets/images/subvis/random_code.png' | relative_url }}" alt="Creating a unique / random string with CIMAQ_UniqueString.vi">
-</figure>
-
+  
 
 ## How does it work?
 
