@@ -68,7 +68,8 @@ docs:
     children:
       - title: "Unique string"
         url: /docs/randomstring/
-     
+      - title: "List all references"
+        url: /docs/listreferences/ 
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
