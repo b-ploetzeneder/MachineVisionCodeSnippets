@@ -12,7 +12,7 @@ This function calculates a Highlight kernel like the one you get from Vision Ass
  
 
 <figure>
-  <img src="{{ '/assets/images/subvis/GetHighlightKernel.gif' | relative_url }}" alt="Effect of a Highlight Kernel">
+  <img src="{{ '/assets/images/subvis/CIMAQ_GetHighlightKernel.gif' | relative_url }}" alt="Effect of a Highlight Kernel">
 </figure>
  
 ## Code
@@ -49,4 +49,4 @@ I put an [example program](https://github.com/b-ploetzeneder/MachineVisionCodeSn
 
 ## How does it work?
 
-Just plugs in the equation for the Highlight. Uses a matrix product to reduce nr of calculations.
+Just plugs in the equation for the highlight kernel. 
