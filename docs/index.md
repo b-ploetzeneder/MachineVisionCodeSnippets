@@ -6,6 +6,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
---- 
-=======
-I dont really know what to write here.. 
+---
