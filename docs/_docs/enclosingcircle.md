@@ -12,8 +12,8 @@ Calculating the minimal enclosing circle
 
 
 
-![image-center]({{ "/assets/images/image-alignment-580x300.jpg" | relative_url }}){: .align-center}
-
+ 
+![image-center]({{ "/assets/images/enclosingcircle_concept.png" | relative_url }}){: .align-center}
 
 <figure>
   <img src="{{ '/assets/images/_enclosingcircle_concept.PNG' | relative_url }}" alt="bundle install in Terminal window">
