@@ -60,7 +60,7 @@ There are [plenty of algorithms](https://en.wikipedia.org/wiki/Smallest-circle_p
 The implementation is based on 3 ideas:
 - The center of the circle is somewhere in the image (this has to be ensured by the user)
 - The only points that can define the circle lie on the Convex Hull
-- The center of the circle lies on the watershed lines of the Convex Hull (this is not so self-evident, but you can read the [paper] (https://ieeexplore.ieee.org/document/4567872/)
+- The center of the circle lies on the watershed lines of the Convex Hull (this is not so self-evident, but you can read the [paper](https://ieeexplore.ieee.org/document/4567872/)
 
 I brute-force the search of the minimal circle by
 - calculating each possible center (based on IMAQ Watershed)
