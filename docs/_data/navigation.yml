@@ -56,10 +56,10 @@ docs:
         url: /docs/authors/
       - title: "Layouts"
         url: /docs/layouts/
-  - title: Content
+  - title: Mathematical functions
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
+      - title: "Max/Min"
+        url: /docs/maxmin/
       - title: "Working with Pages"
         url: /docs/pages/
       - title: "Working with Collections"

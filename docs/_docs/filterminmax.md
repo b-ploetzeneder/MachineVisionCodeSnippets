@@ -22,8 +22,6 @@ Function: [CIMAQ_ParticleFilter_MinMax.vi](https://github.com/b-ploetzeneder/Mac
 </figure>
 
 
-Dependencies:
-
  
 ## Inputs
 
