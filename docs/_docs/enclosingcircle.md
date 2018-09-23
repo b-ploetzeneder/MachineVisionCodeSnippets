@@ -10,12 +10,17 @@ toc: true
 
 Calculating the minimal enclosing circle
 
-![image-center](/assets/images/_enclosingcircle_concept.png){: .align-center}
+<figure>
+  <img src="{{ '/assets/images/_enclosingcircle_concept.png' | relative_url }}" alt="bundle install in Terminal window">
+</figure>
  
 ## Code
 
 Function: CIMAQ PM_BoundingC.vi
-![image-center](/assets/images/_enclosingcircle_function.png){: .align-center}
+
+<figure>
+  <img src="{{ '/assets/images/_enclosingcircle_function.png' | relative_url }}" alt="bundle install in Terminal window">
+</figure>
 
 
 Dependencies:
@@ -34,15 +39,20 @@ Dependencies:
 
 
 ## Outputs
+
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
 | Center | Center of the minimal enclosing circle |
 | Radius|  Radius of the minimal enclosing circle |
 | Bounding box|  Bounding box - mostly for use with Overlay Oval.. |
 
-## How to use it
-![image-center](/assets/images/_enclosingcircle_example.png: .align-center}
 
+## How to use it
+
+
+<figure>
+  <img src="{{ '/assets/images/_enclosingcircle_example.png' | relative_url }}" alt="bundle install in Terminal window">
+</figure>
 
 ## How does it work?
 
@@ -50,4 +60,4 @@ The implmentation is based on 3 ideas:
 The center of the circle is somewhere in the image (this has to be ensured by the user)
 The only points that can define the circle lie on the convex Hull
 The center of the circle lies on the watershed lines of the convex hull
-We brute-force finding a minimal circle by calculating the distances between all potential centers + points lying on the circle
+We brute-force finding a minimal circle by calculating the distances between all potential centers + points lying on the circle.
