@@ -42,10 +42,10 @@ docs:
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
-  - title: Customization
+  - title: Particle Functions
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
+      - title: "Enclosing Circle"
+        url: /docs/enclosingcircle/
       - title: "Overriding Theme Defaults"
         url: /docs/overriding-theme-defaults/
       - title: "Navigation"
