@@ -2,7 +2,7 @@
 permalink: /docs/randomstring/
 title: "CIMAQ_UniqueString.vi"
 excerpt: "gives you a unique, somewhat random string."
-last_modified_at: 2018-09-23T11:31:38-04:00
+last_modified_at: 2018-09-23T20:31:38-04:00
 redirect_from:
   - /theme-setup/
 toc: false 
