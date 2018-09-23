@@ -64,7 +64,7 @@ docs:
         url: /docs/gaussian/
       - title: "Get Highlight Kernel"
         url: /docs/highlight/
-    - title: Utilities
+  - title: Utilities
         children:
           - title: "Unique string"
             url: /docs/randomstring/
