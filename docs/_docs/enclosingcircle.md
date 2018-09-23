@@ -10,17 +10,44 @@ toc: true
 
 Calculating the minimal enclosing circle
 
+![image-center](/assets/images/_enclosingcircle_concept.png){: .align-center}
  
-**ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
-{: .notice--info}
+## Code
+
+Function: CIMAQ PM_BoundingC.vi
+![image-center](/assets/images/_enclosingcircle_function.png){: .align-center}
+
+
+Dependencies:
+
+ 
+## Inputs
+
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+| Image | U8 image containing exactly 1 binary particle. |
+| Speedup|  Constant that makes the algorithm faster, and more unprecise (we just scale the input image..) |
 
+**Warning:** Ensure that the image contains only 1 binary particle. Make sure that the image is large enough to contain the center of the circle.
+{: .notice--info}
+
+
+## Outputs
+| Name                                        | Description                                           |
+| ------------------------------------------- | ----------------------------------------------------- |
+| Center | Center of the minimal enclosing circle |
+| Radius|  Radius of the minimal enclosing circle |
+| Bounding box|  Bounding box - mostly for use with Overlay Oval.. |
+
+## How to use it
+![image-center](/assets/images/_enclosingcircle_example.png: .align-center}
+
+
+## How does it work?
+
+The implmentation is based on 3 ideas:
+The center of the circle is somewhere in the image (this has to be ensured by the user)
+The only points that can define the circle lie on the convex Hull
+The center of the circle lies on the watershed lines of the convex hull
+We brute-force finding a minimal circle by calculating the distances between all potential centers + points lying on the circle
