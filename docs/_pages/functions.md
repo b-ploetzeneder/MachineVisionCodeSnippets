@@ -6,16 +6,15 @@ last_modified_at: 2018-09-19T11:31:38-04:00
 redirect_from:
   - /theme-setup/
 toc: true
+author_profile: false
 sidebar:
   nav: "docs"
-
 ---
 
-Minimal Mistakes has been developed as a [Jekyll theme gem](http://jekyllrb.com/docs/themes/) for easier use. It is also 100% compatible with GitHub Pages --- just with slightly different installation process.
+API-Overview over the current functions.
+## Requirements
 
-## Installing the Theme
-
-If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem.
+This API is based on LabVIEW 2017 / Vision 2018.
 
 [^structure]: See [**Structure** page]({{ "/docs/structure/" | relative_url }}) for a list of theme files and what they do.
 
