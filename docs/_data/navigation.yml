@@ -46,8 +46,8 @@ docs:
     children:
       - title: "Enclosing Circle"
         url: /docs/enclosingcircle/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
+      - title: "Filter Min/Max"
+        url: /docs/filterminmax/
       - title: "Navigation"
         url: /docs/navigation/
       - title: "UI Text"
