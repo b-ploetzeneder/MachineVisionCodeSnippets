@@ -65,9 +65,10 @@ docs:
       - title: "Get Highlight Kernel"
         url: /docs/highlight/
   - title: Utilities
-        children:
-          - title: "Unique string"
-            url: /docs/randomstring/
+    children:
+      - title: "Unique string"
+        url: /docs/randomstring/
+     
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
