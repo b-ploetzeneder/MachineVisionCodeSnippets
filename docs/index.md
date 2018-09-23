@@ -7,4 +7,8 @@
 #
 layout: home
 ---
+<<<<<<< HEAD
 adsfsdf
+=======
+I dont really know what to write here..
+>>>>>>> 2fbadce78fa287e0e649a2b22aba856b38905947
