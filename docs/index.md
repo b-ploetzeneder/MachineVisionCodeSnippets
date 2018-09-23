@@ -6,9 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
----
-<<<<<<< HEAD
-adsfsdf
+--- 
 =======
-I dont really know what to write here..
->>>>>>> 2fbadce78fa287e0e649a2b22aba856b38905947
+I dont really know what to write here.. 
