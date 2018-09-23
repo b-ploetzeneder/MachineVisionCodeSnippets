@@ -2,7 +2,7 @@
 permalink: /docs/filterminmax/
 title: "CIMAQ_ParticleFilter_MinMax.vi	"
 excerpt: "Filter Min/Max."
-last_modified_at: 2018-09-19T11:31:38-04:00
+last_modified_at: 2018-09-23T21:07:38-04:00
 redirect_from:
   - /theme-setup/
 toc: true 
@@ -15,7 +15,7 @@ This function sorts a particle by a given parameter (for example: the area) and 
 </figure>
 ## Code
 
-Function: [CIMAQ PM_BoundingC.vi](https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/user.lib/CIMAQ_PM_BoundingC.vi)
+Function: [CIMAQ_ParticleFilter_MinMax.vi](https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/user.lib/CIMAQ_ParticleFilter_MinMax.vi)
 
 <figure>
   <img src="{{ '/assets/images/subvis/pfminmax_function.png' | relative_url }}" alt="Function CIMAQ_ParticleFilter_MinMax.vi">
@@ -31,7 +31,7 @@ Dependencies:
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
 | Image | U8 image containing binary particles. |
-| Parameter|  Parameter that is inspected (default: area). Those are the standard parameters from (IMAQ Particle Analysis)[http://zone.ni.com/reference/en-XX/help/370281AE-01/imaqvision/imaq_particle_analysis/] |
+| Parameter|  Parameter that is inspected (default: area). Those are the standard parameters from [IMAQ Particle Analysis](http://zone.ni.com/reference/en-XX/help/370281AE-01/imaqvision/imaq_particle_analysis/) |
 | Mode|  Maximal (default) or minimal sorting |
 
 
