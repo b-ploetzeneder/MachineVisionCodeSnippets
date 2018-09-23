@@ -21,7 +21,7 @@ foo:
 # main links
 main:
   - title: "Functions"
-    url: /docs/functions/
+    url: /functions/
   - title: "About"
     url: /about/
   - title: "Sample Posts"

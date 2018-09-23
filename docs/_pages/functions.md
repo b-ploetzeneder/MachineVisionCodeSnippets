@@ -1,6 +1,6 @@
 ---
-title: "Quick-Start Guide"
-permalink: /docs/quick-start-guide/
+title: "Functions"
+permalink: /functions/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 last_modified_at: 2018-07-19T11:31:38-04:00
 redirect_from:
