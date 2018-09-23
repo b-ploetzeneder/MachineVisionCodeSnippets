@@ -13,18 +13,14 @@ Calculating the minimal enclosing circle
 
 
  
-![image-center]({{ "/assets/images/enclosingcircle_concept.png" | relative_url }}){: .align-center}
-
-<figure>
-  <img src="{{ '/assets/images/_enclosingcircle_concept.PNG' | relative_url }}" alt="bundle install in Terminal window">
-</figure>
- 
+![image-center]({{ "/assets/images/subvis/enclosingcircle_concept.png" | relative_url }}){: .align-center}
+  
 ## Code
 
 Function: CIMAQ PM_BoundingC.vi
 
 <figure>
-  <img src="{{ '/assets/images/_enclosingcircle_function.PNG' | relative_url }}" alt="bundle install in Terminal window">
+  <img src="{{ '/assets/images/subvis/enclosingcircle_function.png' | relative_url }}" alt="bundle install in Terminal window">
 </figure>
 
 
@@ -56,7 +52,7 @@ Dependencies:
 
 
 <figure>
-  <img src="{{ '/assets/images/_enclosingcircle_example.PNG' | relative_url }}" alt="bundle install in Terminal window">
+  <img src="{{ '/assets/images/subvis/enclosingcircle_example.png' | relative_url }}" alt="bundle install in Terminal window">
 </figure>
 
 ## How does it work?
