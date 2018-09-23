@@ -8,16 +8,14 @@ redirect_from:
 toc: true 
 ---
 
-Calculating the minimal enclosing circle
+This function calculates the minimal enclosing circle of a particle in an image.
 
-
-
- 
 ![image-center]({{ "/assets/images/subvis/enclosingcircle_concept.png" | relative_url }}){: .align-center}
   
 ## Code
 
 Function: CIMAQ PM_BoundingC.vi
+https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/user.lib/CIMAQ_PM_BoundingC.vi
 
 <figure>
   <img src="{{ '/assets/images/subvis/enclosingcircle_function.png' | relative_url }}" alt="bundle install in Terminal window">
@@ -50,6 +48,7 @@ Dependencies:
 
 ## How to use it
 
+You can find an example program here:  https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/examples/Particle_Enclosing_Circle.vi
 
 <figure>
   <img src="{{ '/assets/images/subvis/enclosingcircle_example.png' | relative_url }}" alt="bundle install in Terminal window">
@@ -57,8 +56,16 @@ Dependencies:
 
 ## How does it work?
 
-The implmentation is based on 3 ideas:
-The center of the circle is somewhere in the image (this has to be ensured by the user)
-The only points that can define the circle lie on the convex Hull
-The center of the circle lies on the watershed lines of the convex hull
-We brute-force finding a minimal circle by calculating the distances between all potential centers + points lying on the circle.
+There are plenty of algorithms for this problem: https://en.wikipedia.org/wiki/Smallest-circle_problem
+
+I chose one that is easy to understand, although it is not the fastest.
+
+The implementation is based on 3 ideas:
+- The center of the circle is somewhere in the image (this has to be ensured by the user)
+- The only points that can define the circle lie on the Convex Hull
+- The center of the circle lies on the watershed lines of the Convex Hull (this is not so self-evident, but you can read the paper here: https://ieeexplore.ieee.org/document/4567872/ 
+
+I brute-force the search of the minimal circle by
+- calculating each possible center (based on IMAQ Watershed)
+- testing each center by calculating the maximal distance to each point on the convex hull contour (this is the radius of a enclosing circle going through that center)
+- selecting the center point that produces the smalles radius
