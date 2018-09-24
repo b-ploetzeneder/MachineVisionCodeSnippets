@@ -15,7 +15,7 @@ This function calculates the cumulative histogram of a function and two percenti
 </figure>  
 ## Code
 
-Function: [CIMAQ_Cumulative_Histogram.vi](https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/user.lib/ CIMAQ_Cumulative_Histogram.vi)
+Function: [CIMAQ_Cumulative_Histogram.vi](https://github.com/b-ploetzeneder/MachineVisionCodeSnippets/blob/master/user.lib/CIMAQ_Cumulative_Histogram.vi)
 
 <figure>
   <img src="{{ '/assets/images/subvis/cumulative_function.png' | relative_url }}" alt="CIMAQ_Cumulative_Histogram.vi">
