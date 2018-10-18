@@ -66,6 +66,8 @@ docs:
         url: /docs/gaussian/
       - title: "Get Highlight Kernel"
         url: /docs/highlight/
+      - title: "Resample proportionally"
+        url: /docs/resample/
   - title: Utilities
     children:
       - title: "Unique string"
