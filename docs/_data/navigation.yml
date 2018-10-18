@@ -58,8 +58,6 @@ docs:
         url: /docs/layouts/
   - title: Mathematical functions
     children:
-      - title: "Cumulative H/Percentile"
-        url: /docs/cumulative/
       - title: "Max/Min"
         url: /docs/maxmin/
       - title: "Get Gaussian Kernel"
