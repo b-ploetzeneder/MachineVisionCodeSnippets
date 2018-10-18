@@ -64,16 +64,12 @@ docs:
         url: /docs/maxmin/
       - title: "Get Gaussian Kernel"
         url: /docs/gaussian/
-      - title: "Get Highlight Kernel"
-        url: /docs/highlight/
-      - title: "Resample proportionally"
-        url: /docs/resample/
   - title: Utilities
     children:
       - title: "Unique string"
         url: /docs/randomstring/
       - title: "List all references"
-        url: /docs/listreferences/
+        url: /docs/listreferences/ 
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
