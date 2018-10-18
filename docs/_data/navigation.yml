@@ -64,6 +64,8 @@ docs:
         url: /docs/maxmin/
       - title: "Get Gaussian Kernel"
         url: /docs/gaussian/
+      - title: "Get Highlight Kernel"
+        url: /docs/highlight/
   - title: Utilities
     children:
       - title: "Unique string"
