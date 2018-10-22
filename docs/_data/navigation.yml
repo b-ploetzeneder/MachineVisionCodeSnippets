@@ -58,7 +58,7 @@ docs:
         url: /docs/layouts/
   - title: Mathematical functions
     children:
-      - title: "Cumulative H/Percentile"
+      - title: "Cumulative Hist/Percentile"
         url: /docs/cumulative/
       - title: "Max/Min"
         url: /docs/maxmin/
@@ -71,7 +71,7 @@ docs:
       - title: "Unique string"
         url: /docs/randomstring/
       - title: "List all references"
-        url: /docs/listreferences/
+        url: /docs/listreferences/ 
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
