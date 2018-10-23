@@ -10,3 +10,4 @@ user.lib/Overlay Utilities/Overlay Particle Analysis Results.vi
 user.lib/Overlay Utilities/Overlay Pattern Matching Results.vi
 user.lib/Overlay Utilities/Overlay Points with User Specified Size.vi
 user.lib/Overlay Utilities/Overlay Straight Edges.vi
+*.lock

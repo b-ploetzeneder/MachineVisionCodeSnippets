@@ -17,7 +17,7 @@ name                     : &name "Birgit Ploetzeneder" # &name is a YAML anchor 
 description              : &description "Additional library functions for NI Vision / IMAQ."
 url                      : https://b-ploetzeneder.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/MachineVisionCodeSnippets/" # the subpath of your site, e.g. "/blog"
-repository               : "b-ploetzeneder/MachineVisionCodeSnippets/"
+repository               : "b-ploetzeneder/MachineVisionCodeSnippets"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -283,6 +283,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
