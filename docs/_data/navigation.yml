@@ -48,17 +48,9 @@ docs:
         url: /docs/enclosingcircle/
       - title: "Filter Min/Max"
         url: /docs/filterminmax/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
   - title: Mathematical functions
     children:
-      - title: "Cumulative H/Percentile"
+      - title: "Cumulative Hist/Percentile"
         url: /docs/cumulative/
       - title: "Max/Min"
         url: /docs/maxmin/
@@ -66,6 +58,8 @@ docs:
         url: /docs/gaussian/
       - title: "Get Highlight Kernel"
         url: /docs/highlight/
+      - title: "Resample proportionally"
+        url: /docs/resample/
   - title: Utilities
     children:
       - title: "Unique string"
